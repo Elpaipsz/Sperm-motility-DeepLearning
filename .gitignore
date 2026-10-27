@@ -1,0 +1,28 @@
+# Datos originales (licencia: solo investigación; además pesan 35 GB)
+visem-dataset/
+EVISAN/
+data/raw/
+data/processed/
+
+# Checkpoints y pesos
+models/
+*.pt
+*.pth
+*.ckpt
+runs/
+
+# Entorno y caché
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.ipynb_checkpoints
+*.pyc
+
+# Videos e imágenes sueltas por si caen fuera de las carpetas anteriores
+*.avi
+*.wmv
+*.mp4
+*.npy
+
+# Se versiona: notebooks, src/, data/splits/*.csv, reports/figures/ (livianas), AGENTS.md
