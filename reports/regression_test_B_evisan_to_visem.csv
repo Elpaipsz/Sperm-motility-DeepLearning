@@ -1,0 +1,3 @@
+model,test_mae,test_rmse,mae_prog
+media_entrenamiento,13.22,16.64,17.37
+ridge,6.33,8.53,7.58

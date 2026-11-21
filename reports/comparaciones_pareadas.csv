@@ -1,0 +1,7 @@
+modelo_A,modelo_B,dif_media_A_menos_B,IC95_bajo,IC95_alto,distinguible_de_cero
+CNN 3D (ensamble 3 semillas),Características + Ridge (detector B),2.1,0.98,3.42,True
+ResNet18 afinada (anexo A),Características + Ridge (detector B),1.71,0.83,2.58,True
+CNN 3D regularizada (anexo B),Características + Ridge (detector B),1.69,0.82,2.57,True
+CNN 3D (ensamble 3 semillas),ResNet18 afinada (anexo A),0.39,-0.58,1.57,False
+CNN 3D (ensamble 3 semillas),CNN 3D regularizada (anexo B),0.41,-0.23,1.16,False
+Características + Ridge (detector B),Promedio 50/50 CNN 3D + Ridge,-0.42,-1.05,0.16,False

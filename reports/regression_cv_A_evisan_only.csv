@@ -1,0 +1,5 @@
+model,cv_mae_mean,cv_mae_std,mae_prog,mae_nonprog,mae_immot,rmse
+media_entrenamiento,12.8,1.37,17.01,8.2,13.19,16.52
+ridge,8.1,2.37,8.53,7.41,8.36,11.09
+random_forest,8.64,2.36,9.89,7.89,8.12,11.91
+gradient_boosting,7.8,2.18,8.62,7.33,7.43,10.94

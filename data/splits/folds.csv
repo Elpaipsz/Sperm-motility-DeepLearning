@@ -1,0 +1,86 @@
+ID,progressive,non_progressive,immotile,video,evaluator,quality_note,has_tracking,split,fold,detector_role
+1,51,19,30,1_09.09.02_SSW.avi,SSW,,False,trainval,1,
+2,22,16,62,2_09.09.03_lots of debris_SSW.avi,SSW,lots of debris,False,trainval,1,
+3,18,26,56,3_11.01.21_JMA.avi,JMA,,False,test,-1,
+4,33,26,41,4_11.03.29_HH.avi,HH,,False,trainval,2,
+5,43,22,35,5_11.05.04_JMA.avi,JMA,,False,trainval,3,
+6,31,31,38,6_12.02.08_drift_HH.avi,HH,drift,False,trainval,3,
+7,0,4,96,7_12.02.20_minor drift_HH.avi,HH,minor drift,False,trainval,1,
+8,43,37,20,8_12.02.21_minor drift_HH.avi,HH,minor drift,False,trainval,4,
+9,26,42,32,9_12.03.06_minor drift_HH.avi,HH,minor drift,False,trainval,2,
+10,26,42,32,10_12.03.12_minor drift_HH.avi,HH,minor drift,False,trainval,4,
+11,11,17,72,11_09.01.23_JMA.avi,JMA,,True,trainval,0,val
+12,33,54,13,12_09.01.23_SSW.avi,SSW,,True,trainval,0,val
+13,33,30,37,13_09.01.26_SSW.avi,SSW,,True,test,-1,test
+14,41,43,16,14_09.01.27_SSW.avi,SSW,,True,test,-1,test
+15,15,46,39,15_09.01.28_SSW.avi,SSW,,True,trainval,3,train
+16,62,16,22,16_09.01.28_SSW.avi,SSW,,False,trainval,1,
+17,68,16,16,17_09.01.29_SSW.avi,SSW,,False,trainval,1,
+18,60,25,15,18_09.01.29_SSW.avi,SSW,,False,trainval,3,
+19,58,19,23,19_10.01.06_JMA.avi,JMA,,True,trainval,0,val
+20,52,28,20,20_09.02.02_JMA.avi,JMA,,False,trainval,2,
+21,30,31,39,21_09.02.03_JMA.avi,JMA,,True,trainval,1,train
+22,56,25,19,22_09.02.04_SSW.avi,SSW,,True,trainval,1,train
+23,18,34,48,23_09.02.04_SSW.avi,SSW,,True,trainval,0,val
+24,35,25,40,24_09.02.04_SSW.avi,SSW,,True,trainval,3,train
+25,37,34,29,25_09.02.06_IVS.avi,IVS,,False,trainval,2,
+26,70,18,12,26_09.02.12_IVS.avi,IVS,,False,trainval,2,
+27,76,14,10,27_09.02.18_IVS.avi,IVS,,False,trainval,1,
+28,40,27,33,28_09.06.05_SSW.avi,SSW,,False,trainval,1,
+29,4,20,76,29_09.03.12_SSW.avi,SSW,,True,trainval,1,train
+30,26,40,34,30_09.03.25_SSW.avi,SSW,,True,trainval,4,train
+31,64,20,16,31_10.04.22_JMA.avi,JMA,,False,trainval,4,
+32,55,17,28,32_09.06.23_OW.avi,OW,,False,test,-1,
+33,69,13,18,33_09.06.25_OW.avi,OW,,False,trainval,1,
+34,27,35,38,34_09.06.26_OW.avi,OW,,False,trainval,3,
+35,1,26,73,35_09.06.29_OW.avi,OW,,True,test,-1,test
+36,36,35,29,36_09.07.01_OW.avi,OW,,True,trainval,4,train
+37,38,34,28,37_09.07.27_SSW.avi,SSW,,False,trainval,0,
+38,38,31,31,38_09.08.24_SSW.avi,SSW,,True,trainval,2,train
+39,50,32,18,39_09.09.16_SSW.avi,SSW,,False,trainval,2,
+40,22,49,29,40_09.09.25_SSW.avi,SSW,,False,trainval,2,
+41,25,46,29,41_09.10.12_minor drift_SSW.avi,SSW,minor drift,False,trainval,0,
+42,58,27,15,42_09.10.13_minor drift_SSW.avi,SSW,minor drift,False,trainval,4,
+43,50,35,15,43_09.10.14_drift_SSW.avi,SSW,drift,False,trainval,4,
+44,50,29,21,44_09.10.14_drift_SSW.avi,SSW,drift,False,trainval,0,
+45,67,20,13,45_09.10.16_SSW.avi,SSW,,False,trainval,3,
+46,19,25,56,46_09.10.19_minor drift_SSW.avi,SSW,minor drift,False,trainval,3,
+47,12,42,46,47_09.10.19_SSW.avi,SSW,,True,trainval,2,train
+48,43,31,26,48_09.10.20_SSW.avi,SSW,,False,trainval,2,
+49,34,30,36,49_09.12.02_OW.avi,OW,,False,trainval,1,
+50,51,27,22,50_09.11.16_SSW.avi,SSW,,False,trainval,1,
+51,69,18,13,51_09.11.25_SSW.avi,SSW,,False,trainval,0,
+52,14,32,54,52_09.12.03_drift_SSW.avi,SSW,drift,True,trainval,4,train
+53,37,36,27,53_10.01.07_OW.avi,OW,,False,trainval,4,
+54,22,37,41,54_10.01.14_JMA.avi,JMA,,True,trainval,2,train
+55,65,20,15,55_10.12.13_JMA.avi,JMA,,False,trainval,3,
+56,70,18,12,56_10.12.16_HH.avi,HH,,False,trainval,3,
+57,38,33,29,57_10.12.15_JMA.avi,JMA,,False,trainval,4,
+58,48,32,20,58_11.01.27_JMA.avi,JMA,,False,test,-1,
+59,38,36,26,59_11.02.03_HH.avi,HH,,False,test,-1,
+60,19,44,37,60_11.02.04_JMA.avi,JMA,,True,test,-1,test
+61,66,24,10,61_11.02.04_JMA.avi,JMA,,False,trainval,0,
+62,68,17,15,62_11.02.09_JMA.avi,JMA,,False,trainval,2,
+63,28,24,48,63_11.02.10_JMA.avi,JMA,,False,test,-1,
+64,72,14,14,64_11.02.10_JMA.avi,JMA,,False,trainval,2,
+65,68,19,13,65_11.02.15_HH.avi,HH,,False,trainval,3,
+66,37,34,29,66_11.02.16_HH.avi,HH,,False,trainval,3,
+67,69,18,13,67_11.02.16_JMA.avi,JMA,,False,trainval,4,
+68,41,35,24,68_11.02.17_HH.avi,HH,,False,trainval,1,
+69,70,20,10,69_11.02.22_HH.avi,HH,,False,trainval,4,
+70,74,16,10,70_11.02.23_JMA.avi,JMA,,False,test,-1,
+71,63,24,13,71_11.02.24_HH.avi,HH,,False,trainval,2,
+72,70,19,11,72_11.02.24_JMA.avi,JMA,,False,test,-1,
+73,21,38,41,73_11.02.25_HH.avi,HH,,False,trainval,4,
+74,68,20,12,74_11.02.25_JMA.avi,JMA,,False,test,-1,
+75,44,31,25,75_11.03.09_JMA.avi,JMA,,False,trainval,0,
+76,28,30,42,76_11.03.09_JMA.avi,JMA,,False,test,-1,
+77,42,37,21,77_11.03.11_JMA.avi,JMA,,False,test,-1,
+78,55,21,24,78_11.03.15_JMA.avi,JMA,,False,trainval,0,
+79,66,22,12,79_11.03.17_JMA.avi,JMA,,False,trainval,4,
+80,4,15,81,80_11.05.04_JMA.avi,JMA,,False,trainval,0,
+81,61,27,12,81_11.05.26_HH.avi,HH,,False,trainval,0,
+82,17,33,50,82_11.06.23_JMA.avi,JMA,,True,trainval,3,train
+83,65,20,15,83_11.11.09_HH.avi,HH,,False,test,-1,
+84,35,31,34,84_11.12.21_HH.avi,HH,,False,trainval,0,
+85,48,27,25,85_12.02.06_drift_HH.avi,HH,drift,False,trainval,3,

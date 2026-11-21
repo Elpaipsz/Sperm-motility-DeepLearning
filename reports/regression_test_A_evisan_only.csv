@@ -1,0 +1,3 @@
+model,test_mae,test_rmse,mae_prog
+media_entrenamiento,13.22,16.64,17.37
+gradient_boosting,8.44,11.27,9.29

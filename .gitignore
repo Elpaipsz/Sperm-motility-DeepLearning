@@ -1,28 +1,67 @@
-# Datos originales (licencia: solo investigación; además pesan 35 GB)
+# ---------------------------------------------------------------------------
+# Datos originales y derivados (licencia VISEM: solo investigación; pesan decenas de GB)
+# ---------------------------------------------------------------------------
 visem-dataset/
 EVISAN/
+VISEM-Tracking/
 data/raw/
 data/processed/
 
-# Checkpoints y pesos
+# ---------------------------------------------------------------------------
+# Modelos, checkpoints y resultados de entrenamiento (se regeneran con src/)
+# ---------------------------------------------------------------------------
 models/
+weights/
+runs/
 *.pt
 *.pth
 *.ckpt
-runs/
+*.joblib
 
-# Entorno y caché
-.venv/
-venv/
-__pycache__/
-.ipynb_checkpoints/
-.ipynb_checkpoints
-*.pyc
+# ---------------------------------------------------------------------------
+# Material de terceros: NO se sube.
+# reference-notebooks/ contiene cuadernos ajenos; uno de ellos trae una clave de API
+# de otra persona escrita en el código, y subirla la publicaría en este repositorio.
+# ---------------------------------------------------------------------------
+reference-notebooks/
 
-# Videos e imágenes sueltas por si caen fuera de las carpetas anteriores
+# ---------------------------------------------------------------------------
+# Videos y arreglos pesados (los 3 videos de demo suman ~48 MB: van al Drive compartido)
+# ---------------------------------------------------------------------------
+reports/demo/
 *.avi
 *.wmv
 *.mp4
 *.npy
 
-# Se versiona: notebooks, src/, data/splits/*.csv, reports/figures/ (livianas), AGENTS.md
+# ---------------------------------------------------------------------------
+# Entorno, cachés, registros y archivos del sistema o del editor
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*.docx
+
+# ---------------------------------------------------------------------------
+# Secretos: nunca versionar claves ni credenciales
+# ---------------------------------------------------------------------------
+.env
+*.key
+secrets*
+
+# ---------------------------------------------------------------------------
+# SÍ se versiona: estimacion_motilidad_visem.ipynb, README.md, src/, requirements.txt, AGENTS.md,
+# data/splits/*.csv (divisiones fijas), reports/*.csv, reports/figures/ (livianas)
+# y reports/informe_final.docx / .pdf
+# ---------------------------------------------------------------------------
+
+# Paquete de entrega (.zip): se arma a partir del repositorio, no se versiona
+entrega/
+*.zip
